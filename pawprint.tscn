@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://pawprint.png" type="Texture" id=1]
+[ext_resource path="res://footprint.gd" type="Script" id=2]
+
+[node name="footprint" type="Sprite"]
+
+z_index = -1
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+_sections_unfolded = [ "Z Index" ]
+LIFE = 2.0
+
+

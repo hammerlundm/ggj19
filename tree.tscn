@@ -7,9 +7,9 @@
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-extents = Vector2( 16, 26 )
+extents = Vector2( 9, 10 )
 
-[node name="obstacle" type="StaticBody2D"]
+[node name="tree" type="StaticBody2D"]
 
 input_pickable = false
 collision_layer = 1
@@ -23,11 +23,13 @@ img = ExtResource( 2 )
 
 [node name="collision" type="CollisionShape2D" parent="." index="0"]
 
+position = Vector2( 0, 17 )
 shape = SubResource( 1 )
-_sections_unfolded = [ "Visibility" ]
+_sections_unfolded = [ "Transform", "Visibility" ]
 
 [node name="sprite" type="Sprite" parent="." index="1"]
 
 texture = ExtResource( 3 )
+_sections_unfolded = [ "Offset", "Z Index" ]
 
 

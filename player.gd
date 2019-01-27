@@ -1,17 +1,17 @@
 extends KinematicBody2D
 
 var footprint = preload("res://footprint.tscn")
+var pause = preload("res://pausemenu.tscn")
 
 export(float) var SPEED = 1.0
 export(int) var MAX_STAMINA = 100
 export(float) var STAMINA_DRAIN = 1.0
-export(int) var MAX_INV = 3
 export(float) var ANIM_LENGTH = 1.0
 
 var object
 var stamina setget set_stamina
 var inventory
-var kindling
+var inventory_imgs
 var anim_time
 var anim_offset_dir = 0
 var anim_offset_inside = 14
@@ -24,13 +24,17 @@ func _ready():
 	object = null
 	set_stamina(MAX_STAMINA)
 	inventory = []
-	kindling = 0
+	inventory_imgs = []
 	anim_time = ANIM_LENGTH
 	dest = null
 	foot_time = 0
 	foot_dir = 8
 
 func _physics_process(delta):
+	if Input.is_action_pressed("player_pause"):
+		var menu = pause.instance()
+		$"../CanvasLayer".add_child(menu)
+		get_tree().paused = true
 	var v
 	if dest == null:
 		v = Vector2(0, 0)
@@ -52,8 +56,13 @@ func _physics_process(delta):
 			dest = null
 			emit_signal("reached_destination")
 		v = diff.normalized() * SPEED
+		$sprite.flip_h = v.x < 0
+		if v.y > 0:
+			anim_offset_dir = 0
+		else:
+			anim_offset_dir = 7
 	set_stamina(stamina - (STAMINA_DRAIN*delta))
-	move_and_slide(v * (1 if anim_offset_inside == 0 else 0.75))
+	move_and_slide(v * (1 if anim_offset_inside == 0 else 0.75) / 2)
 	if v.length_squared() > 0:
 		foot_time -= delta
 		if foot_time <= 0 and anim_offset_inside == 0:
@@ -77,20 +86,30 @@ func _process(delta):
 
 func add_item(text, item):
 	if item == "kindling":
-		kindling += 1
-		$"../CanvasLayer/UI/kindling".modulate = Color(kindling / 10.0, kindling / 10.0, kindling / 10.0)
+		global.n_kindling += 1
 		return true
 	else:
-		if len(inventory) >= MAX_INV:
+		if len(inventory) >= global.MAX_ITEMS:
 			return false
 		var img = TextureRect.new()
-		img.texture = text
 		$"../CanvasLayer/UI/inventory".add_child(img)
+		img.texture = text
+		img.expand = true
+		img.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+		img.anchor_right = Control.ANCHOR_END
+		img.anchor_bottom = Control.ANCHOR_END
+		img.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		img.size_flags_vertical = Control.SIZE_EXPAND_FILL
 		inventory.append(item)
+		inventory_imgs.append(text)
 		return true
 
-func display(icon):
-	$icon.texture = icon
+func display(icon, t = 0):
+	$bubble/icon.texture = icon
+	$bubble.visible = icon != null
+	if t != 0:
+		var timer = get_tree().create_timer(t)
+		timer.connect("timeout", $"../bubble", "set", ["visible", false])
 
 func set_stamina(val):
 	stamina = val

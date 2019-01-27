@@ -1,12 +1,14 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://player.gd" type="Script" id=1]
 [ext_resource path="res://ggj_lumberjack.png" type="Texture" id=2]
+[ext_resource path="res://bubble.png" type="Texture" id=3]
+[ext_resource path="res://action.png" type="Texture" id=4]
 
 [sub_resource type="RectangleShape2D" id=2]
 
 custom_solver_bias = 0.0
-extents = Vector2( 20, 20 )
+extents = Vector2( 6, 4 )
 
 [sub_resource type="Animation" id=3]
 
@@ -77,44 +79,80 @@ tracks/4/keys = {
 
 [node name="player" type="KinematicBody2D"]
 
+scale = Vector2( 2, 2 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
 collision/safe_margin = 0.08
 script = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
 SPEED = 200.0
 MAX_STAMINA = 100
 STAMINA_DRAIN = 5.0
-MAX_INV = 3
 ANIM_LENGTH = 0.1
 
 [node name="collision" type="CollisionShape2D" parent="." index="0"]
 
-position = Vector2( 0, 16 )
+position = Vector2( -2, 14 )
 shape = SubResource( 2 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="sprite" type="Sprite" parent="." index="1"]
 
-scale = Vector2( 2, 2 )
+z_index = 1
 texture = ExtResource( 2 )
 vframes = 4
 hframes = 7
 region_rect = Rect2( 0, 0, 16, 32 )
-_sections_unfolded = [ "Animation", "Region", "Transform", "Visibility" ]
+_sections_unfolded = [ "Animation", "Transform", "Visibility", "Z Index" ]
 
-[node name="icon" type="Sprite" parent="." index="2"]
+[node name="bubble" type="TextureRect" parent="." index="2"]
 
-centered = false
-offset = Vector2( 16, -32 )
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 8.0
+margin_top = -23.0
+margin_right = 40.0
+margin_bottom = 9.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 3 )
+stretch_mode = 0
+
+[node name="icon" type="TextureRect" parent="bubble" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 23.0
+margin_bottom = 23.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 4 )
+stretch_mode = 0
 _sections_unfolded = [ "Offset", "Transform" ]
 
 [node name="camera" type="Camera2D" parent="." index="3"]
 
+position = Vector2( 1, 0 )
 anchor_mode = 1
 rotating = false
 current = true
-zoom = Vector2( 1, 1 )
+zoom = Vector2( 0.5, 0.5 )
 limit_left = -10000000
 limit_top = -10000000
 limit_right = 10000000
@@ -126,10 +164,10 @@ smoothing_enabled = false
 smoothing_speed = 5.0
 offset_v = 0.0
 offset_h = 0.0
-drag_margin_left = 0.0
-drag_margin_top = 0.0
-drag_margin_right = 0.0
-drag_margin_bottom = 0.0
+drag_margin_left = 1.0
+drag_margin_top = 1.0
+drag_margin_right = 1.0
+drag_margin_bottom = 1.0
 editor_draw_screen = true
 editor_draw_limits = false
 editor_draw_drag_margin = false

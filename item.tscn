@@ -6,9 +6,9 @@
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-extents = Vector2( 10, 10 )
+extents = Vector2( 20, 20 )
 
-[node name="berry" type="Area2D"]
+[node name="item" type="Area2D"]
 
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )

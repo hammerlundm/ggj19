@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://QTE.gd" type="Script" id=1]
 [ext_resource path="res://up.png" type="Texture" id=2]
 [ext_resource path="res://down.png" type="Texture" id=3]
 [ext_resource path="res://action.png" type="Texture" id=4]
-[ext_resource path="res://icon.png" type="Texture" id=5]
+[ext_resource path="res://cooking.png" type="Texture" id=5]
+[ext_resource path="res://pan.png" type="Texture" id=6]
 
 [node name="QTE" type="Control"]
 
@@ -23,12 +24,12 @@ _sections_unfolded = [ "Anchor", "Margin" ]
 up = ExtResource( 2 )
 down = ExtResource( 3 )
 action = ExtResource( 4 )
-interval = 2.0
+interval = 1.0
 delay = 3.0
 
-[node name="img" type="TextureRect" parent="." index="0"]
+[node name="counter" type="TextureRect" parent="." index="0"]
 
-anchor_left = 0.5
+anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -40,7 +41,53 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 texture = ExtResource( 5 )
 expand = true
+stretch_mode = 0
+_sections_unfolded = [ "Anchor", "Margin" ]
+
+[node name="img" type="TextureRect" parent="." index="1"]
+
+anchor_left = 0.5
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.75
+margin_left = 50.0
+margin_top = 50.0
+margin_right = -50.0
+margin_bottom = -50.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+expand = true
 stretch_mode = 6
-_sections_unfolded = [ "Anchor", "Margin", "Pause" ]
+_sections_unfolded = [ "Anchor", "Margin", "Pause", "Visibility" ]
+
+[node name="pan" type="Sprite" parent="." index="2"]
+
+position = Vector2( 295.058, 349.504 )
+scale = Vector2( 5, 5 )
+texture = ExtResource( 6 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="score" type="HBoxContainer" parent="." index="3"]
+
+anchor_left = 0.5
+anchor_top = 0.75
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 50.0
+margin_top = 20.0
+margin_right = -50.0
+margin_bottom = -20.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+alignment = 0
+_sections_unfolded = [ "Anchor", "Margin" ]
 
 

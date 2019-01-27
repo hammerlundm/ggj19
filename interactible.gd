@@ -13,7 +13,11 @@ func on_player_enter(body):
 	if body is player_scene:
 		player = body
 		player.object = self
+		choose_icon()
 		player.display(icon)
+
+func choose_icon():
+	pass
 
 func on_player_exit(body):
 	if body is player_scene:
