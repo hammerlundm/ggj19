@@ -881,7 +881,7 @@ img = ExtResource( 8 )
 
 [node name="obstacle372" parent="." index="131" instance=ExtResource( 7 )]
 
-position = Vector2( 1759.85, -1635.77 )
+position = Vector2( 1708.39, -1302.04 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
@@ -895,7 +895,7 @@ img = ExtResource( 8 )
 
 [node name="obstacle368" parent="." index="133" instance=ExtResource( 7 )]
 
-position = Vector2( 1712.36, -1704.14 )
+position = Vector2( 1745.75, -1303.43 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
@@ -2782,696 +2782,703 @@ scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle29" parent="." index="403" instance=ExtResource( 7 )]
+[node name="obstacle355" parent="." index="403" instance=ExtResource( 7 )]
+
+position = Vector2( -81.2857, 2549.09 )
+scale = Vector2( 2, 2 )
+_sections_unfolded = [ "Transform" ]
+img = ExtResource( 8 )
+
+[node name="obstacle29" parent="." index="404" instance=ExtResource( 7 )]
 
 position = Vector2( 189.976, 2554.68 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle30" parent="." index="404" instance=ExtResource( 7 )]
+[node name="obstacle352" parent="." index="405" instance=ExtResource( 7 )]
+
+position = Vector2( -166.121, 2553.6 )
+scale = Vector2( 2, 2 )
+_sections_unfolded = [ "Transform" ]
+img = ExtResource( 8 )
+
+[node name="obstacle30" parent="." index="406" instance=ExtResource( 7 )]
 
 position = Vector2( 111.459, 2551.07 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle31" parent="." index="405" instance=ExtResource( 7 )]
+[node name="obstacle358" parent="." index="407" instance=ExtResource( 7 )]
+
+position = Vector2( -244.638, 2549.99 )
+scale = Vector2( 2, 2 )
+_sections_unfolded = [ "Transform" ]
+img = ExtResource( 8 )
+
+[node name="obstacle31" parent="." index="408" instance=ExtResource( 7 )]
 
 position = Vector2( 39.2589, 2547.46 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle32" parent="." index="406" instance=ExtResource( 7 )]
+[node name="obstacle357" parent="." index="409" instance=ExtResource( 7 )]
+
+position = Vector2( -316.838, 2546.38 )
+scale = Vector2( 2, 2 )
+_sections_unfolded = [ "Transform" ]
+img = ExtResource( 8 )
+
+[node name="obstacle32" parent="." index="410" instance=ExtResource( 7 )]
 
 position = Vector2( 71.7489, 2574.54 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle353" parent="." index="407" instance=ExtResource( 7 )]
+[node name="obstacle351" parent="." index="411" instance=ExtResource( 7 )]
+
+position = Vector2( -284.348, 2573.46 )
+scale = Vector2( 2, 2 )
+_sections_unfolded = [ "Transform" ]
+img = ExtResource( 8 )
+
+[node name="obstacle353" parent="." index="412" instance=ExtResource( 7 )]
 
 position = Vector2( 71.7489, 2574.54 )
-scale = Vector2( 2, 2 )
-_sections_unfolded = [ "Transform" ]
-img = ExtResource( 8 )
-
-[node name="obstacle351" parent="." index="408" instance=ExtResource( 7 )]
-
-position = Vector2( -192.163, 2566.38 )
-scale = Vector2( 2, 2 )
-_sections_unfolded = [ "Transform" ]
-img = ExtResource( 8 )
-
-[node name="obstacle33" parent="." index="409" instance=ExtResource( 7 )]
-
-position = Vector2( 149.364, 2570.93 )
-scale = Vector2( 2, 2 )
-_sections_unfolded = [ "Transform" ]
-img = ExtResource( 8 )
-
-[node name="obstacle354" parent="." index="410" instance=ExtResource( 7 )]
-
-position = Vector2( -359.415, 2502.91 )
-scale = Vector2( 2, 2 )
-_sections_unfolded = [ "Transform" ]
-img = ExtResource( 8 )
-
-[node name="obstacle355" parent="." index="411" instance=ExtResource( 7 )]
-
-position = Vector2( -277.793, 2502.91 )
-scale = Vector2( 2, 2 )
-_sections_unfolded = [ "Transform" ]
-img = ExtResource( 8 )
-
-[node name="obstacle356" parent="." index="412" instance=ExtResource( 7 )]
-
-position = Vector2( -153.999, 2509.71 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
 [node name="obstacle359" parent="." index="413" instance=ExtResource( 7 )]
 
-position = Vector2( -98.2239, 2564.13 )
+position = Vector2( -284.348, 2573.46 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle360" parent="." index="414" instance=ExtResource( 7 )]
+[node name="obstacle33" parent="." index="414" instance=ExtResource( 7 )]
 
-position = Vector2( -69.5553, 2477.39 )
+position = Vector2( 149.364, 2570.93 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle361" parent="." index="415" instance=ExtResource( 7 )]
+[node name="obstacle356" parent="." index="415" instance=ExtResource( 7 )]
 
-position = Vector2( -4.13229, 2478.86 )
+position = Vector2( -206.733, 2569.85 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle362" parent="." index="416" instance=ExtResource( 7 )]
+[node name="obstacle360" parent="." index="416" instance=ExtResource( 7 )]
+
+position = Vector2( -65.8799, 2572.21 )
+scale = Vector2( 2, 2 )
+_sections_unfolded = [ "Transform" ]
+img = ExtResource( 8 )
+
+[node name="obstacle361" parent="." index="417" instance=ExtResource( 7 )]
+
+position = Vector2( -18.099, 2544.28 )
+scale = Vector2( 2, 2 )
+_sections_unfolded = [ "Transform" ]
+img = ExtResource( 8 )
+
+[node name="obstacle362" parent="." index="418" instance=ExtResource( 7 )]
 
 position = Vector2( -382.704, 2353.16 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle363" parent="." index="417" instance=ExtResource( 7 )]
+[node name="obstacle363" parent="." index="419" instance=ExtResource( 7 )]
 
 position = Vector2( -446.657, 2139.24 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle364" parent="." index="418" instance=ExtResource( 7 )]
+[node name="obstacle364" parent="." index="420" instance=ExtResource( 7 )]
 
 position = Vector2( -57.7379, 1813.48 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle357" parent="." index="419" instance=ExtResource( 7 )]
-
-position = Vector2( -256.027, 2560.05 )
-scale = Vector2( 2, 2 )
-_sections_unfolded = [ "Transform" ]
-img = ExtResource( 8 )
-
-[node name="obstacle358" parent="." index="420" instance=ExtResource( 7 )]
-
-position = Vector2( -256.027, 2560.05 )
-scale = Vector2( 2, 2 )
-_sections_unfolded = [ "Transform" ]
-img = ExtResource( 8 )
-
-[node name="obstacle352" parent="." index="421" instance=ExtResource( 7 )]
-
-position = Vector2( -317.244, 2558.69 )
-scale = Vector2( 2, 2 )
-_sections_unfolded = [ "Transform" ]
-img = ExtResource( 8 )
-
-[node name="obstacle34" parent="." index="422" instance=ExtResource( 7 )]
+[node name="obstacle34" parent="." index="421" instance=ExtResource( 7 )]
 
 position = Vector2( 229.686, 2570.03 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle90" parent="." index="423" instance=ExtResource( 7 )]
+[node name="obstacle354" parent="." index="422" instance=ExtResource( 7 )]
 
-position = Vector2( -34.226, 2561.86 )
+position = Vector2( -126.411, 2568.95 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle35" parent="." index="424" instance=ExtResource( 7 )]
+[node name="obstacle90" parent="." index="423" instance=ExtResource( 7 )]
+
+position = Vector2( -4.8224, 2569.95 )
+scale = Vector2( 2, 2 )
+_sections_unfolded = [ "Transform" ]
+img = ExtResource( 8 )
+
+[node name="obstacle319" parent="." index="424" instance=ExtResource( 7 )]
+
+position = Vector2( -360.919, 2568.87 )
+scale = Vector2( 2, 2 )
+_sections_unfolded = [ "Transform" ]
+img = ExtResource( 8 )
+
+[node name="obstacle35" parent="." index="425" instance=ExtResource( 7 )]
 
 position = Vector2( 310.008, 2570.03 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle36" parent="." index="425" instance=ExtResource( 7 )]
+[node name="obstacle36" parent="." index="426" instance=ExtResource( 7 )]
 
 position = Vector2( 384.916, 2569.12 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle37" parent="." index="426" instance=ExtResource( 7 )]
+[node name="obstacle37" parent="." index="427" instance=ExtResource( 7 )]
 
 position = Vector2( 455.311, 2571.83 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle38" parent="." index="427" instance=ExtResource( 7 )]
+[node name="obstacle38" parent="." index="428" instance=ExtResource( 7 )]
 
 position = Vector2( 522.998, 2567.32 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle39" parent="." index="428" instance=ExtResource( 7 )]
+[node name="obstacle39" parent="." index="429" instance=ExtResource( 7 )]
 
 position = Vector2( 593.393, 2571.83 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle40" parent="." index="429" instance=ExtResource( 7 )]
+[node name="obstacle40" parent="." index="430" instance=ExtResource( 7 )]
 
 position = Vector2( 667.398, 2571.83 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle41" parent="." index="430" instance=ExtResource( 7 )]
+[node name="obstacle41" parent="." index="431" instance=ExtResource( 7 )]
 
 position = Vector2( 741.403, 2570.03 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle42" parent="." index="431" instance=ExtResource( 7 )]
+[node name="obstacle42" parent="." index="432" instance=ExtResource( 7 )]
 
 position = Vector2( 814.876, 2569.6 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle43" parent="." index="432" instance=ExtResource( 7 )]
+[node name="obstacle43" parent="." index="433" instance=ExtResource( 7 )]
 
 position = Vector2( 894.828, 2573.64 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle44" parent="." index="433" instance=ExtResource( 7 )]
+[node name="obstacle44" parent="." index="434" instance=ExtResource( 7 )]
 
 position = Vector2( 958.905, 2568.22 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle45" parent="." index="434" instance=ExtResource( 7 )]
+[node name="obstacle45" parent="." index="435" instance=ExtResource( 7 )]
 
 position = Vector2( 1030.2, 2570.93 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle46" parent="." index="435" instance=ExtResource( 7 )]
+[node name="obstacle46" parent="." index="436" instance=ExtResource( 7 )]
 
 position = Vector2( 1100.6, 2571.83 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle47" parent="." index="436" instance=ExtResource( 7 )]
+[node name="obstacle47" parent="." index="437" instance=ExtResource( 7 )]
 
 position = Vector2( 1178.21, 2573.64 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle48" parent="." index="437" instance=ExtResource( 7 )]
+[node name="obstacle48" parent="." index="438" instance=ExtResource( 7 )]
 
 position = Vector2( 1236.87, 2570.03 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle49" parent="." index="438" instance=ExtResource( 7 )]
+[node name="obstacle49" parent="." index="439" instance=ExtResource( 7 )]
 
 position = Vector2( 1312.68, 2569.13 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle50" parent="." index="439" instance=ExtResource( 7 )]
+[node name="obstacle50" parent="." index="440" instance=ExtResource( 7 )]
 
 position = Vector2( 1386.69, 2576.34 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle51" parent="." index="440" instance=ExtResource( 7 )]
+[node name="obstacle51" parent="." index="441" instance=ExtResource( 7 )]
 
 position = Vector2( 1457.99, 2570.93 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle52" parent="." index="441" instance=ExtResource( 7 )]
+[node name="obstacle52" parent="." index="442" instance=ExtResource( 7 )]
 
 position = Vector2( 1527.48, 2566.42 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle53" parent="." index="442" instance=ExtResource( 7 )]
+[node name="obstacle53" parent="." index="443" instance=ExtResource( 7 )]
 
 position = Vector2( 1527.48, 2566.42 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle323" parent="." index="443" instance=ExtResource( 7 )]
+[node name="obstacle323" parent="." index="444" instance=ExtResource( 7 )]
 
 position = Vector2( 1939.67, 2581.38 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle324" parent="." index="444" instance=ExtResource( 7 )]
+[node name="obstacle324" parent="." index="445" instance=ExtResource( 7 )]
 
 position = Vector2( 1979.12, 2586.82 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle325" parent="." index="445" instance=ExtResource( 7 )]
+[node name="obstacle325" parent="." index="446" instance=ExtResource( 7 )]
 
 position = Vector2( 2026.74, 2594.98 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle326" parent="." index="446" instance=ExtResource( 7 )]
+[node name="obstacle326" parent="." index="447" instance=ExtResource( 7 )]
 
 position = Vector2( 2074.35, 2593.62 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle327" parent="." index="447" instance=ExtResource( 7 )]
+[node name="obstacle327" parent="." index="448" instance=ExtResource( 7 )]
 
 position = Vector2( 2104.28, 2619.47 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle328" parent="." index="448" instance=ExtResource( 7 )]
+[node name="obstacle328" parent="." index="449" instance=ExtResource( 7 )]
 
 position = Vector2( 2049.86, 2631.71 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle329" parent="." index="449" instance=ExtResource( 7 )]
+[node name="obstacle329" parent="." index="450" instance=ExtResource( 7 )]
 
 position = Vector2( 1987.29, 2628.99 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle330" parent="." index="450" instance=ExtResource( 7 )]
+[node name="obstacle330" parent="." index="451" instance=ExtResource( 7 )]
 
 position = Vector2( 1920.63, 2633.08 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle331" parent="." index="451" instance=ExtResource( 7 )]
+[node name="obstacle331" parent="." index="452" instance=ExtResource( 7 )]
 
 position = Vector2( 1920.63, 2633.08 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle7" parent="." index="452" instance=ExtResource( 7 )]
+[node name="obstacle7" parent="." index="453" instance=ExtResource( 7 )]
 
 position = Vector2( 1345.58, 359.527 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 8 )
 
-[node name="obstacle8" parent="." index="453" instance=ExtResource( 7 )]
+[node name="obstacle8" parent="." index="454" instance=ExtResource( 7 )]
 
 position = Vector2( 452.789, 725.579 )
 scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Transform" ]
 img = ExtResource( 9 )
 
-[node name="item_spawn" parent="." index="454" instance=ExtResource( 10 )]
+[node name="item_spawn" parent="." index="455" instance=ExtResource( 10 )]
 
 position = Vector2( 557.516, 1496.51 )
 type = "carrot"
 
-[node name="item_spawn3" parent="." index="455" instance=ExtResource( 10 )]
+[node name="item_spawn3" parent="." index="456" instance=ExtResource( 10 )]
 
 position = Vector2( 60, 330 )
 type = "berry"
 
-[node name="item_spawn2" parent="." index="456" instance=ExtResource( 10 )]
+[node name="item_spawn2" parent="." index="457" instance=ExtResource( 10 )]
 
 position = Vector2( 2360.65, -262.547 )
 type = "potato"
 
-[node name="item_spawn35" parent="." index="457" instance=ExtResource( 10 )]
+[node name="item_spawn35" parent="." index="458" instance=ExtResource( 10 )]
 
 position = Vector2( 2152.64, -787.1 )
 type = "pumpkin"
 
-[node name="item_spawn58" parent="." index="458" instance=ExtResource( 10 )]
+[node name="item_spawn58" parent="." index="459" instance=ExtResource( 10 )]
 
 position = Vector2( 2541.27, -1110.96 )
 type = "pumpkin"
 
-[node name="item_spawn36" parent="." index="459" instance=ExtResource( 10 )]
+[node name="item_spawn36" parent="." index="460" instance=ExtResource( 10 )]
 
 position = Vector2( 2702.82, -523.316 )
 type = "berry"
 
-[node name="item_spawn23" parent="." index="460" instance=ExtResource( 10 )]
+[node name="item_spawn23" parent="." index="461" instance=ExtResource( 10 )]
 
 position = Vector2( 661.144, -719.233 )
 type = "mushroom"
 
-[node name="item_spawn4" parent="." index="461" instance=ExtResource( 10 )]
+[node name="item_spawn4" parent="." index="462" instance=ExtResource( 10 )]
 
 position = Vector2( 302.484, 984.939 )
 type = "mushroom"
 
-[node name="item_spawn5" parent="." index="462" instance=ExtResource( 10 )]
+[node name="item_spawn5" parent="." index="463" instance=ExtResource( 10 )]
 
 position = Vector2( 1552.72, -706.524 )
 type = "melon"
 
-[node name="item_spawn10" parent="." index="463" instance=ExtResource( 10 )]
+[node name="item_spawn10" parent="." index="464" instance=ExtResource( 10 )]
 
 position = Vector2( 1935.2, 508.503 )
 type = "melon"
 
-[node name="item_spawn6" parent="." index="464" instance=ExtResource( 10 )]
+[node name="item_spawn6" parent="." index="465" instance=ExtResource( 10 )]
 
 position = Vector2( 1991.67, 965.724 )
 type = "pumpkin"
 
-[node name="item_spawn7" parent="." index="465" instance=ExtResource( 10 )]
+[node name="item_spawn7" parent="." index="466" instance=ExtResource( 10 )]
 
 position = Vector2( 945.394, 1411.47 )
 type = "potato"
 
-[node name="item_spawn8" parent="." index="466" instance=ExtResource( 10 )]
+[node name="item_spawn8" parent="." index="467" instance=ExtResource( 10 )]
 
 position = Vector2( 964.243, 1186.98 )
 type = "potato"
 
-[node name="item_spawn24" parent="." index="467" instance=ExtResource( 10 )]
+[node name="item_spawn24" parent="." index="468" instance=ExtResource( 10 )]
 
 position = Vector2( 1423.98, 1031.72 )
 type = "carrot"
 
-[node name="item_spawn25" parent="." index="468" instance=ExtResource( 10 )]
+[node name="item_spawn25" parent="." index="469" instance=ExtResource( 10 )]
 
 position = Vector2( 679.356, 674.485 )
 type = "carrot"
 
-[node name="item_spawn26" parent="." index="469" instance=ExtResource( 10 )]
+[node name="item_spawn26" parent="." index="470" instance=ExtResource( 10 )]
 
 position = Vector2( 1467.69, 371.51 )
 type = "carrot"
 
-[node name="item_spawn27" parent="." index="470" instance=ExtResource( 10 )]
+[node name="item_spawn27" parent="." index="471" instance=ExtResource( 10 )]
 
 position = Vector2( 798.436, -228.41 )
 type = "potato"
 
-[node name="item_spawn50" parent="." index="471" instance=ExtResource( 10 )]
+[node name="item_spawn50" parent="." index="472" instance=ExtResource( 10 )]
 
 position = Vector2( 1241.35, -622.114 )
 type = "potato"
 
-[node name="item_spawn28" parent="." index="472" instance=ExtResource( 10 )]
+[node name="item_spawn28" parent="." index="473" instance=ExtResource( 10 )]
 
 position = Vector2( -253.686, -147.014 )
 type = "carrot"
 
-[node name="item_spawn29" parent="." index="473" instance=ExtResource( 10 )]
+[node name="item_spawn29" parent="." index="474" instance=ExtResource( 10 )]
 
 position = Vector2( -960.627, -232.932 )
 type = "berry"
 
-[node name="item_spawn30" parent="." index="474" instance=ExtResource( 10 )]
+[node name="item_spawn30" parent="." index="475" instance=ExtResource( 10 )]
 
 position = Vector2( -326.038, -974.542 )
 type = "mushroom"
 
-[node name="item_spawn34" parent="." index="475" instance=ExtResource( 10 )]
+[node name="item_spawn34" parent="." index="476" instance=ExtResource( 10 )]
 
 position = Vector2( -773.717, -570.575 )
 type = "melon"
 
-[node name="item_spawn31" parent="." index="476" instance=ExtResource( 10 )]
+[node name="item_spawn31" parent="." index="477" instance=ExtResource( 10 )]
 
 position = Vector2( 291.97, -918.77 )
 type = "carrot"
 
-[node name="item_spawn32" parent="." index="477" instance=ExtResource( 10 )]
+[node name="item_spawn32" parent="." index="478" instance=ExtResource( 10 )]
 
 position = Vector2( 891.891, -1040.86 )
 type = "carrot"
 
-[node name="item_spawn49" parent="." index="478" instance=ExtResource( 10 )]
+[node name="item_spawn49" parent="." index="479" instance=ExtResource( 10 )]
 
 position = Vector2( 1455.05, -1446.99 )
 type = "pumpkin"
 
-[node name="item_spawn57" parent="." index="479" instance=ExtResource( 10 )]
+[node name="item_spawn57" parent="." index="480" instance=ExtResource( 10 )]
 
 position = Vector2( 1455.78, -1807.92 )
 type = "berry"
 
-[node name="item_spawn9" parent="." index="480" instance=ExtResource( 10 )]
+[node name="item_spawn9" parent="." index="481" instance=ExtResource( 10 )]
 
 position = Vector2( 517.477, -698.054 )
 type = "potato"
 
-[node name="item_spawn11" parent="." index="481" instance=ExtResource( 10 )]
+[node name="item_spawn11" parent="." index="482" instance=ExtResource( 10 )]
 
 position = Vector2( 511.447, -471.953 )
 type = "melon"
 
-[node name="item_spawn12" parent="." index="482" instance=ExtResource( 10 )]
+[node name="item_spawn12" parent="." index="483" instance=ExtResource( 10 )]
 
 position = Vector2( 1975.59, -35.9921 )
 type = "pumpkin"
 
-[node name="item_spawn13" parent="." index="483" instance=ExtResource( 10 )]
+[node name="item_spawn13" parent="." index="484" instance=ExtResource( 10 )]
 
 position = Vector2( 1011.44, 2303.85 )
 type = "mushroom"
 
-[node name="item_spawn15" parent="." index="484" instance=ExtResource( 10 )]
+[node name="item_spawn15" parent="." index="485" instance=ExtResource( 10 )]
 
 position = Vector2( 441.447, 2430.36 )
 type = "pumpkin"
 
-[node name="item_spawn16" parent="." index="485" instance=ExtResource( 10 )]
+[node name="item_spawn16" parent="." index="486" instance=ExtResource( 10 )]
 
 position = Vector2( 180.256, 2024.97 )
 type = "pumpkin"
 
-[node name="item_spawn33" parent="." index="486" instance=ExtResource( 10 )]
+[node name="item_spawn33" parent="." index="487" instance=ExtResource( 10 )]
 
 position = Vector2( -238.58, 2381.76 )
 type = "pumpkin"
 
-[node name="item_spawn59" parent="." index="487" instance=ExtResource( 10 )]
+[node name="item_spawn59" parent="." index="488" instance=ExtResource( 10 )]
 
 position = Vector2( -469.05, 1616.11 )
 type = "pumpkin"
 
-[node name="item_spawn60" parent="." index="488" instance=ExtResource( 10 )]
+[node name="item_spawn60" parent="." index="489" instance=ExtResource( 10 )]
 
 position = Vector2( -1547.99, 1373.93 )
 type = "pumpkin"
 
-[node name="item_spawn61" parent="." index="489" instance=ExtResource( 10 )]
+[node name="item_spawn61" parent="." index="490" instance=ExtResource( 10 )]
 
 position = Vector2( -958.413, 902.941 )
 type = "melon"
 
-[node name="item_spawn65" parent="." index="490" instance=ExtResource( 10 )]
+[node name="item_spawn65" parent="." index="491" instance=ExtResource( 10 )]
 
 position = Vector2( -833.149, 547.192 )
 type = "melon"
 
-[node name="item_spawn62" parent="." index="491" instance=ExtResource( 10 )]
+[node name="item_spawn62" parent="." index="492" instance=ExtResource( 10 )]
 
 position = Vector2( -1526.27, 607.319 )
 type = "berry"
 
-[node name="item_spawn63" parent="." index="492" instance=ExtResource( 10 )]
+[node name="item_spawn63" parent="." index="493" instance=ExtResource( 10 )]
 
 position = Vector2( -447.338, 161.381 )
 type = "pumpkin"
 
-[node name="item_spawn64" parent="." index="493" instance=ExtResource( 10 )]
+[node name="item_spawn64" parent="." index="494" instance=ExtResource( 10 )]
 
 position = Vector2( -447.338, 161.381 )
 type = "pumpkin"
 
-[node name="item_spawn17" parent="." index="494" instance=ExtResource( 10 )]
+[node name="item_spawn17" parent="." index="495" instance=ExtResource( 10 )]
 
 position = Vector2( 206.031, 1458.53 )
 type = "pumpkin"
 
-[node name="item_spawn18" parent="." index="495" instance=ExtResource( 10 )]
+[node name="item_spawn18" parent="." index="496" instance=ExtResource( 10 )]
 
 position = Vector2( 1688.91, 2258.96 )
 type = "melon"
 
-[node name="item_spawn19" parent="." index="496" instance=ExtResource( 10 )]
+[node name="item_spawn19" parent="." index="497" instance=ExtResource( 10 )]
 
 position = Vector2( 1803.18, 2056.26 )
 type = "melon"
 
-[node name="item_spawn37" parent="." index="497" instance=ExtResource( 10 )]
+[node name="item_spawn37" parent="." index="498" instance=ExtResource( 10 )]
 
 position = Vector2( 1433.88, 1454.83 )
 type = "melon"
 
-[node name="item_spawn20" parent="." index="498" instance=ExtResource( 10 )]
+[node name="item_spawn20" parent="." index="499" instance=ExtResource( 10 )]
 
 position = Vector2( 2061.65, 2475.25 )
 type = "carrot"
 
-[node name="item_spawn38" parent="." index="499" instance=ExtResource( 10 )]
+[node name="item_spawn38" parent="." index="500" instance=ExtResource( 10 )]
 
 position = Vector2( 4041.17, 2389.63 )
 type = "pumpkin"
 
-[node name="item_spawn39" parent="." index="500" instance=ExtResource( 10 )]
+[node name="item_spawn39" parent="." index="501" instance=ExtResource( 10 )]
 
 position = Vector2( 2539.47, 2008.25 )
 type = "pumpkin"
 
-[node name="item_spawn40" parent="." index="501" instance=ExtResource( 10 )]
+[node name="item_spawn40" parent="." index="502" instance=ExtResource( 10 )]
 
 position = Vector2( 2676.64, 2464.98 )
 type = "melon"
 
-[node name="item_spawn41" parent="." index="502" instance=ExtResource( 10 )]
+[node name="item_spawn41" parent="." index="503" instance=ExtResource( 10 )]
 
 position = Vector2( 3073.06, 2020.31 )
 type = "melon"
 
-[node name="item_spawn42" parent="." index="503" instance=ExtResource( 10 )]
+[node name="item_spawn42" parent="." index="504" instance=ExtResource( 10 )]
 
 position = Vector2( 2960.01, 2455.93 )
 type = "melon"
 
-[node name="item_spawn43" parent="." index="504" instance=ExtResource( 10 )]
+[node name="item_spawn43" parent="." index="505" instance=ExtResource( 10 )]
 
 position = Vector2( 3528.28, 1957 )
 type = "melon"
 
-[node name="item_spawn44" parent="." index="505" instance=ExtResource( 10 )]
+[node name="item_spawn44" parent="." index="506" instance=ExtResource( 10 )]
 
 position = Vector2( 3861.4, 2077.59 )
 type = "berry"
 
-[node name="item_spawn46" parent="." index="506" instance=ExtResource( 10 )]
+[node name="item_spawn46" parent="." index="507" instance=ExtResource( 10 )]
 
 position = Vector2( 3864.42, 1860.53 )
 type = "mushroom"
 
-[node name="item_spawn47" parent="." index="507" instance=ExtResource( 10 )]
+[node name="item_spawn47" parent="." index="508" instance=ExtResource( 10 )]
 
 position = Vector2( 2723.36, 1553.04 )
 type = "mushroom"
 
-[node name="item_spawn48" parent="." index="508" instance=ExtResource( 10 )]
+[node name="item_spawn48" parent="." index="509" instance=ExtResource( 10 )]
 
 position = Vector2( 3403.17, 1589.21 )
 type = "mushroom"
 
-[node name="item_spawn51" parent="." index="509" instance=ExtResource( 10 )]
+[node name="item_spawn51" parent="." index="510" instance=ExtResource( 10 )]
 
 position = Vector2( 3934.26, 1170.9 )
 type = "mushroom"
 
-[node name="item_spawn52" parent="." index="510" instance=ExtResource( 10 )]
+[node name="item_spawn52" parent="." index="511" instance=ExtResource( 10 )]
 
 position = Vector2( 3054.58, 904.331 )
 type = "potato"
 
-[node name="item_spawn54" parent="." index="511" instance=ExtResource( 10 )]
+[node name="item_spawn54" parent="." index="512" instance=ExtResource( 10 )]
 
 position = Vector2( 3821.48, 350.685 )
 type = "berry"
 
-[node name="item_spawn55" parent="." index="512" instance=ExtResource( 10 )]
+[node name="item_spawn55" parent="." index="513" instance=ExtResource( 10 )]
 
 position = Vector2( 3132.5, 53.356 )
 type = "berry"
 
-[node name="item_spawn56" parent="." index="513" instance=ExtResource( 10 )]
+[node name="item_spawn56" parent="." index="514" instance=ExtResource( 10 )]
 
 position = Vector2( 3130.45, -973.966 )
 type = "berry"
 
-[node name="item_spawn53" parent="." index="514" instance=ExtResource( 10 )]
+[node name="item_spawn53" parent="." index="515" instance=ExtResource( 10 )]
 
 position = Vector2( 2466.07, 779.248 )
 type = "carrot"
 
-[node name="item_spawn45" parent="." index="515" instance=ExtResource( 10 )]
+[node name="item_spawn45" parent="." index="516" instance=ExtResource( 10 )]
 
 position = Vector2( 2492.74, 1578.66 )
 type = "berry"
 
-[node name="item_spawn21" parent="." index="516" instance=ExtResource( 10 )]
+[node name="item_spawn21" parent="." index="517" instance=ExtResource( 10 )]
 
 position = Vector2( 2022.2, 1712.08 )
 type = "berry"
 
-[node name="item_spawn22" parent="." index="517" instance=ExtResource( 10 )]
+[node name="item_spawn22" parent="." index="518" instance=ExtResource( 10 )]
 
 position = Vector2( 2041.24, 1479.46 )
 type = "berry"
 
-[node name="item_spawn14" parent="." index="518" instance=ExtResource( 10 )]
+[node name="item_spawn14" parent="." index="519" instance=ExtResource( 10 )]
 
 position = Vector2( 1028.45, 1919.21 )
 type = "mushroom"
 
-[node name="dog" parent="." index="519" instance=ExtResource( 11 )]
+[node name="dog" parent="." index="520" instance=ExtResource( 11 )]
 
 position = Vector2( 999.739, 649.156 )
 z_index = -1
 _sections_unfolded = [ "Transform", "Z Index" ]
 SPEED = 100.0
 
-[node name="world" parent="." index="520" instance=ExtResource( 12 )]
+[node name="world" parent="." index="521" instance=ExtResource( 12 )]
 
 z_index = -3
 _sections_unfolded = [ "Z Index" ]
